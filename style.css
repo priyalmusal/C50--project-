@@ -1,0 +1,45 @@
+h1{
+    color:rgb(160, 243, 215);
+    background-color: rgb(207, 108, 108); 
+   
+}
+a{
+    color: cyan;
+
+}
+h1,a,p,h2,ul,ol{
+    border: solid;
+}
+p{
+    color: cadetblue;
+}
+h3{
+    color: rgb(231, 168, 202);
+}
+h2{
+    color: rgb(139, 250, 204);
+}
+
+.header{
+    background-color: paleturquoise;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu{
+    background-color:rgb(93, 219, 219);
+    display:flex;
+    flex-direction:row;
+}
+.bodyimg{
+    background-color:rgb(247, 181, 247);
+    border: solid;
+    border-color: powderblue;
+}
+.list{
+    background:rgb(236, 139, 188);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: powderblue;  
+}
