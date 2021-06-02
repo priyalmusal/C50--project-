@@ -7,9 +7,7 @@ a{
     color: cyan;
 
 }
-h1,a,p,h2,ul,ol{
-    border: solid;
-}
+
 p{
     color: cadetblue;
 }
@@ -25,21 +23,31 @@ h2{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
+
 }
 .menu{
     background-color:rgb(93, 219, 219);
     display:flex;
     flex-direction:row;
+    justify-content: space-between;
 }
+
+.menu * {
+margin-left: 5px;
+}
+
 .bodyimg{
     background-color:rgb(247, 181, 247);
-    border: solid;
-    border-color: powderblue;
-}
-.list{
-    background:rgb(236, 139, 188);
     display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    color: powderblue;  
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.origami{
+    display:flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color:rgb(250, 255, 175);
+    width: 300px;
+    margin: 15px;
 }
